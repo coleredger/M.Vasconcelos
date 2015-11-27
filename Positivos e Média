@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(void){
+    int i ,countagem = 0 ;
+    float n, sum= 0.0, media;
+    for(i=1;i<=6;i++){
+        scanf("%f",&n);
+        if(n>0){
+            sum+=n;
+            countagem++;
+        }
+        media=sum/(float)countagem;
+    }
+    printf("%d valores positivos\n",countagem);
+    printf("%.1lf\n",media);
+    return 0;
+}
