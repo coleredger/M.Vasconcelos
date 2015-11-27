@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>  
+   
+main (){
+       
+    int x; //variavel do tipo inteiro
+      
+     scanf ("%d",&x); //armazenando valor na variavel 'a'
+        while (x!=2002){   //o programa vai entender que enquanto variavel 'x' for diferente  ele ira executar o comando a seguir.
+        printf ("Senha Invalida\n"); //mostra para o usuario o resultado.
+           
+           scanf ("%d",&x); //armazena um novo valor na variavel 'x'
+    } 
+           if (x==2002) //se 'a' for igual a 2002, ele irá mostrar como "Acesso permitido"
+           printf ("Acesso Permitido\n"); //mostrando para usuario mensagem de "Acesso permitido"
+       
+    return 0;
+       
+    }
