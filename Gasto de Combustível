@@ -1,0 +1,14 @@
+#include <stdio.h> 
+ 
+ int main() {
+  
+  double x,i,a; //definindo as variaveis
+    
+  scanf("%lf\n%lf",&x,&i); //armazena o tempo de viagem na variavel 'x' e velocidade na variavel 'i'
+     a=(x*i/12);// programa calcula e armazena em 'a' o numero de litros necessarios.
+     
+    printf("%.3lf\n",a);// mostra para o usuario o calculo feito e armazenado na variavel 'a'
+      
+    return 0;
+  
+}
