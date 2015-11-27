@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+int x,N;
+scanf("%d",&N);
+ 
+if (N>=2 && N<=1000){
+ 
+for(x=1;x<=10;x++){
+printf("%d x %d = %d\n",x,N,N*x);
+}
+}
+ 
+return 0;
+}
