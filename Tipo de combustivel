@@ -1,0 +1,24 @@
+#include <stdio.h>
+ 
+int main() {
+     
+     int x=0,i=0,a=0,opcao; //variaveis do tipo inteiro
+   
+     do{
+         scanf("%d",&opcao);
+              
+         if(opcao==1){x++;} //se a opção selecionada for 1 , contador ira mostrar quantos clientes abasteceram com Alcool.
+          
+        else if(opcao==2){i++;} //se a opção selecionada for 2 , contador ira mostrar quantos clientes abasteceram com Gasolina.
+          
+         else if(opcao==3){a++;}//se a opção selecionada for 3 , contador ira mostrar quantos clientes abasteceram com Diesel.
+      
+         }while(opcao!=4); //enquanto o numero selecionado for diferente de 4 ele irá solicitar um novo código.
+   
+     printf("MUITO OBRIGADO\n");
+     printf("Alcool: %d\n",x);
+     printf("Gasolina: %d\n",i);  
+     printf("Diesel: %d\n",a);
+                //conjunto de printf's para mostrar a opção selecionada.
+    return 0;
+}
